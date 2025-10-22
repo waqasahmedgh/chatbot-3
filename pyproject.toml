@@ -1,0 +1,22 @@
+[project]
+name = "chatbot-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Waqas Ahmed", email = "waqasahmed75@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.8.3",
+    "openai-agents>=0.4.0",
+    "python-dotenv>=1.1.1",
+]
+
+[project.scripts]
+chatbot-3 = "chatbot_3:main"
+chatbot = "chatbot_3:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
